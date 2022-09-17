@@ -1,0 +1,20 @@
+/*
+  This file is used to configure the Seequelize Library, pointing
+where each file type is stored, like:
+
+  \ Database Config;
+  \ Models;
+  \ Migrations;
+  \ Seeds.
+
+  PS.: Doesn't support the new syntax!!
+*/
+
+const { resolve } = require('path');
+
+module.exports = {
+  config: resolve(__dirname, 'src', 'config', 'database.js'),
+  'models-path': resolve(__dirname, 'src', 'app', 'models'),
+  'migrations-path': resolve(__dirname, 'src', 'database', 'migrations'),
+  'seeders-path': resolve(__dirname, 'src', 'database', 'seeds'),
+};

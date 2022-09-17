@@ -1,0 +1,19 @@
+# This file is used to configure some formatation options
+# in the IDE (whateveer IDE you're using, VS Code, Sublime
+# or Jupiter Notebook).
+#
+# Also, dunno the reason, but the comments are made like
+# in Python, using the '#' character.
+
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
